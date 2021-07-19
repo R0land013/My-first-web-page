@@ -1,0 +1,130 @@
+
+
+
+/********************GENERAL***************************/
+html{
+    width: auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    margin: 0;
+    width: 100%;
+}
+/*****************************************************/
+
+/********************Banner**************************/
+.banner{
+    display: flex;
+    background-color: darkcyan;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    z-index: 10;
+}
+
+.banner > img{
+    width: 7em;
+}
+/*******************************************/
+
+/********************Languages********************************/
+.language-div{
+    margin-top: 8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    
+}
+
+.language-div > *{
+    margin-top: 0.5em;
+}
+
+.language-div .language-attribute, .language-div .language-history{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.language-div > h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+}
+
+.language-div h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+}
+
+.language-div > img{
+    width: 70%;
+    border-radius: 1.5em;
+}
+
+.language-information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.language-attribute{
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    background-color: olivedrab;
+    border-radius: .4em;
+    color: white;
+}
+
+
+.paradigm-inf{
+    position: relative;
+    left:2em;
+}
+
+.language-attribute-div > *{
+    display: block;
+    margin-right: 0.5em;
+    margin-top: 0.5em;
+}
+
+.language-attribute-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.language-paradigm{
+    list-style-image: url("../img/bullet.png");
+}
+
+.langauge-history{
+    display: block;
+    width: 60%;
+}
+
+/**************************************************************/
+
+/***********Footer***************************/
+
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: darkcyan;
+    width: 100%;
+    margin-top: 2.5em;
+    align-items: center;
+}
+
+.footer-div > *{
+    margin-top: .5em;
+    margin-bottom: .5em;
+    display: block;
+    color: white;
+}
+
+/********************************************/
